@@ -1,0 +1,7 @@
+<p>Image Uploader</p>
+
+<%= form_for(@image) do |f| %>
+  <%= f.label :image %>
+  <%= f.file_field :image %>
+  <%= f.submit "Upload" %>
+<% end %>
